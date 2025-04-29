@@ -76,6 +76,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [HexDocs MCP](https://github.com/bradleygolden/hexdocs-mcp) - Enables semantic search of Elixir package documentation for AI assistants via Model Context Protocol (MCP).
 - [Hermes MCP](https://github.com/cloudwalk/hermes-mcp) - SDK for the Model Context Protocol (MCP) with support for multiple transport options (STDIO, HTTP/SSE, WebSocket).
 - [MCP Proxy](https://github.com/tidewave-ai/mcp_proxy_elixir) - Proxy that connects STDIO-based MCP clients to HTTP-based Server-Sent Events (SSE) MCP servers.
+- [Tidewave Phoenix](https://github.com/tidewave-ai/tidewave_phoenix) - AI-powered development assistant for Phoenix web applications that connects editor AI assistants to web framework runtime via MCP.
 
 
 ## Livebooks & Examples
