@@ -18,6 +18,9 @@ Besides giving an overview for experienced Elixir developers, this list can be u
   - [Traditional Machine Learning](#traditional-machine-learning)
   - [Deep Learning](#deep-learning)
 - [Generative AI](#generative-ai)
+  - [LLM Tools](#llm-tools)
+  - [Agent Frameworks](#agent-frameworks)
+  - [Development Tools](#development-tools)
 - [Livebooks & Examples](#livebooks--examples)
 - [Resources](#resources)
 
@@ -57,12 +60,20 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 ## Generative AI
 
 ### LLM Tools
-- [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference built on Elixir, Bumblebee, and EXLA.
+- [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference service and library built on Elixir, Bumblebee, and EXLA with OpenAI API compatibility.
 - [Instructor.ex](https://github.com/thmsmlr/instructor_ex) - Structured outputs from LLMs using Ecto schemas. Works with OpenAI, llama.cpp and Bumblebee.
+- [Mentor](https://github.com/zoedsoupe/mentor) - Library for generating validated structured outputs from LLMs with automatic retries and schema validation.
+- [Ollama-ex](https://github.com/lebrunel/ollama-ex) - Elixir client for Ollama API with support for completions, chat, tools, and function calling.
 
 ### Agent Frameworks
-- [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems using traditional AI and ML approaches.
+- [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems with modular actions, stateful agents, and sensors. AI-framework agnostic.
 - [LangChain](https://github.com/brainlid/langchain) - Framework for developing applications powered by language models, with support for OpenAI, Anthropic, Google, and Bumblebee models.
+- [SwarmEx](https://github.com/nrrso/swarm_ex) - Lightweight library for AI agent orchestration with built-in telemetry and tool integration.
+
+### Development Tools
+- [HexDocs MCP](https://github.com/bradleygolden/hexdocs-mcp) - Enables semantic search of Elixir package documentation for AI assistants via Model Context Protocol (MCP).
+- [Hermes MCP](https://github.com/cloudwalk/hermes-mcp) - SDK for the Model Context Protocol (MCP) with support for multiple transport options (STDIO, HTTP/SSE, WebSocket).
+- [MCP Proxy](https://github.com/tidewave-ai/mcp_proxy_elixir) - Proxy that connects STDIO-based MCP clients to HTTP-based Server-Sent Events (SSE) MCP servers.
 
 
 ## Livebooks & Examples
