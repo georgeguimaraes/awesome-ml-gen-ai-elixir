@@ -17,6 +17,8 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [Machine Learning](#machine-learning)
   - [Traditional Machine Learning](#traditional-machine-learning)
   - [Deep Learning](#deep-learning)
+  - [Computer Vision](#computer-vision)
+  - [Vector Search & Similarity](#vector-search--similarity)
 - [Generative AI](#generative-ai)
   - [LLM Tools](#llm-tools)
   - [Agent Frameworks](#agent-frameworks)
@@ -56,12 +58,20 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 
 - [Evision](https://github.com/cocoa-xu/evision) - OpenCV bindings for Elixir/Erlang.
 - [NxImage](https://github.com/elixir-nx/nx_image) - Image processing in Nx.
+- [YOLO](https://github.com/poeticoding/yolo_elixir) - Real-time object detection using YOLOv8 models with 38ms processing time and optional Rust NIF for performance.
+
+### Vector Search & Similarity
+
+- [ExFaiss](https://github.com/elixir-nx/ex_faiss) - Elixir front-end to Facebook AI Similarity Search (Faiss) for efficient similarity search and clustering of dense vectors.
 
 ## Generative AI
 
 ### LLM Tools
+- [AshAi](https://github.com/ash-project/ash_ai) - Structured outputs, vectorization and tool calling for your Ash application with LangChain integration and MCP server capabilities.
+- [ExLLM](https://github.com/azmaveth/ex_llm) - Multi-provider LLM library with unified API for Anthropic, OpenAI, Gemini, Groq, Ollama, and more. Features streaming, cost tracking, and structured outputs.
 - [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference service and library built on Elixir, Bumblebee, and EXLA with OpenAI API compatibility.
 - [Instructor.ex](https://github.com/thmsmlr/instructor_ex) - Structured outputs from LLMs using Ecto schemas. Works with OpenAI, llama.cpp and Bumblebee.
+- [InstructorLite](https://github.com/martosaur/instructor_lite) - Lightweight structured outputs for LLMs using JSON schemas with multi-provider support including OpenAI, Anthropic, and Gemini.
 - [Mentor](https://github.com/zoedsoupe/mentor) - Library for generating validated structured outputs from LLMs with automatic retries and schema validation.
 - [Ollama-ex](https://github.com/lebrunel/ollama-ex) - Elixir client for Ollama API with support for completions, chat, tools, and function calling.
 - [Rag](https://github.com/bitcrowd/rag) - Library for building Retrieval Augmented Generation (RAG) systems with support for vector stores like pgvector and chroma.
@@ -73,10 +83,12 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [SwarmEx](https://github.com/nrrso/swarm_ex) - Lightweight library for AI agent orchestration with built-in telemetry and tool integration.
 
 ### Development Tools
+- [Evals](https://github.com/ash-project/evals) - Tool for evaluating AI language models on Elixir code generation with side-by-side model comparisons and automated testing.
 - [HexDocs MCP](https://github.com/bradleygolden/hexdocs-mcp) - Enables semantic search of Elixir package documentation for AI assistants via Model Context Protocol (MCP).
-- [Hermes MCP](https://github.com/cloudwalk/hermes-mcp) - SDK for the Model Context Protocol (MCP) with support for multiple transport options (STDIO, HTTP/SSE, WebSocket).
+- [Anubis MCP](https://github.com/zoedsoupe/anubis-mcp) - SDK for the Model Context Protocol (MCP) with support for multiple transport options (STDIO, HTTP/SSE, WebSocket).
 - [MCP Proxy](https://github.com/tidewave-ai/mcp_proxy_elixir) - Proxy that connects STDIO-based MCP clients to HTTP-based Server-Sent Events (SSE) MCP servers.
 - [Tidewave Phoenix](https://github.com/tidewave-ai/tidewave_phoenix) - AI-powered development assistant for Phoenix web applications that connects editor AI assistants to web framework runtime via MCP.
+- [Usage Rules](https://github.com/ash-project/usage_rules) - Tool for synchronizing LLM rules files with dependencies to prevent AI hallucinations and ensure consistent usage patterns.
 
 
 ## Livebooks & Examples
