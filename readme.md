@@ -68,7 +68,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 
 ### LLM Tools
 - [AshAi](https://github.com/ash-project/ash_ai) - Structured outputs, vectorization and tool calling for your Ash application with LangChain integration and MCP server capabilities.
-- [ExLLM](https://github.com/azmaveth/ex_llm) - Multi-provider LLM library with unified API for Anthropic, OpenAI, Gemini, Groq, Ollama, and more. Features streaming, cost tracking, and structured outputs.
+- [ReqLLM](https://github.com/agentjido/req_llm) - A Req-based package to call LLM APIs that standardizes the API calls and responses for LLM providers.
 - [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference service and library built on Elixir, Bumblebee, and EXLA with OpenAI API compatibility.
 - [Instructor.ex](https://github.com/thmsmlr/instructor_ex) - Structured outputs from LLMs using Ecto schemas. Works with OpenAI, llama.cpp and Bumblebee.
 - [InstructorLite](https://github.com/martosaur/instructor_lite) - Lightweight structured outputs for LLMs using JSON schemas with multi-provider support including OpenAI, Anthropic, and Gemini.
