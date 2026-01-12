@@ -74,11 +74,11 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [ClaudeCode](https://github.com/guess/claude_code) - SDK for embedding Claude as an agentic AI in Elixir apps with tool calling and MCP integration.
 - [LLM Composer](https://github.com/doofinder/llm_composer) - Multi-provider LLM library with routing, fallback, streaming, and cost tracking for OpenAI, Anthropic, Gemini, and more.
 - [ReqLLM](https://github.com/agentjido/req_llm) - A Req-based package to call LLM APIs that standardizes the API calls and responses for LLM providers.
-- [DSPEx](https://github.com/nshkrdotcom/ds_ex) - DSPy port for Elixir. Instead of manual prompt engineering, DSPEx treats prompts as optimizable programs and automatically discovers effective prompting strategies through data-driven optimization.
+- [DSPEx](https://github.com/nshkrdotcom/ds_ex) - DSPy port for Elixir with data-driven prompt optimization.
 - [Gemini.ex](https://github.com/nshkrdotcom/gemini_ex) - Elixir client for Google Gemini LLM supporting both AI Studio and Vertex AI.
 - [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference service and library built on Elixir, Bumblebee, and EXLA with OpenAI API compatibility.
 - [Instructor.ex](https://github.com/thmsmlr/instructor_ex) - Structured outputs from LLMs using Ecto schemas. Works with OpenAI, llama.cpp and Bumblebee.
-- [JsonRemedy](https://github.com/nshkrdotcom/json_remedy) - Multi-layered JSON repair library for fixing malformed LLM outputs. Handles missing quotes, trailing commas, code fences, Python/JS object literals, and streaming JSON through a 5-layer repair pipeline.
+- [JsonRemedy](https://github.com/nshkrdotcom/json_remedy) - JSON repair library for fixing malformed LLM outputs.
 - [InstructorLite](https://github.com/martosaur/instructor_lite) - Lightweight structured outputs for LLMs using JSON schemas with multi-provider support including OpenAI, Anthropic, and Gemini.
 - [Mentor](https://github.com/zoedsoupe/mentor) - Library for generating validated structured outputs from LLMs with automatic retries and schema validation.
 - [Ollama-ex](https://github.com/lebrunel/ollama-ex) - Elixir client for Ollama API with support for completions, chat, tools, and function calling.
@@ -90,7 +90,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems with modular actions, stateful agents, and sensors. AI-framework agnostic.
 - [LangChain](https://github.com/brainlid/langchain) - Framework for developing applications powered by language models, with support for OpenAI, Anthropic, Google, and Bumblebee models.
 - [SwarmEx](https://github.com/nrrso/swarm_ex) - Lightweight library for AI agent orchestration with built-in telemetry and tool integration.
-- [Synapse](https://github.com/nshkrdotcom/synapse) - Headless, declarative multi-agent orchestration framework with a domain-agnostic signal bus, workflow engine with Postgres persistence, and configurable agent runtime.
+- [Synapse](https://github.com/nshkrdotcom/synapse) - Multi-agent orchestration framework with Postgres persistence.
 
 ### Development Tools
 - [AgentObs](https://github.com/lostbean/agent_obs) - LLM agent observability with telemetry, token tracking, and OpenTelemetry spans following OpenInference conventions.
