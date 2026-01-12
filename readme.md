@@ -63,17 +63,26 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 ### Vector Search & Similarity
 
 - [ExFaiss](https://github.com/elixir-nx/ex_faiss) - Elixir front-end to Facebook AI Similarity Search (Faiss) for efficient similarity search and clustering of dense vectors.
+- [Leidenfold](https://github.com/georgeguimaraes/leidenfold) - Elixir bindings for the Leiden community detection algorithm.
+- [Stephen](https://github.com/georgeguimaraes/stephen) - ColBERT-style neural retrieval for Elixir.
 
 ## Generative AI
 
 ### LLM Tools
+- [Arcana](https://github.com/georgeguimaraes/arcana) - Embeddable RAG library for Elixir/Phoenix with agentic pipelines and dashboard.
 - [AshAi](https://github.com/ash-project/ash_ai) - Structured outputs, vectorization and tool calling for your Ash application with LangChain integration and MCP server capabilities.
+- [ClaudeCode](https://github.com/guess/claude_code) - SDK for embedding Claude as an agentic AI in Elixir apps with tool calling and MCP integration.
+- [LLM Composer](https://github.com/doofinder/llm_composer) - Multi-provider LLM library with routing, fallback, streaming, and cost tracking for OpenAI, Anthropic, Gemini, and more.
 - [ReqLLM](https://github.com/agentjido/req_llm) - A Req-based package to call LLM APIs that standardizes the API calls and responses for LLM providers.
+- [DSPEx](https://github.com/nshkrdotcom/ds_ex) - DSPy port for Elixir. Instead of manual prompt engineering, DSPEx treats prompts as optimizable programs and automatically discovers effective prompting strategies through data-driven optimization.
+- [Gemini.ex](https://github.com/nshkrdotcom/gemini_ex) - Elixir client for Google Gemini LLM supporting both AI Studio and Vertex AI.
 - [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference service and library built on Elixir, Bumblebee, and EXLA with OpenAI API compatibility.
 - [Instructor.ex](https://github.com/thmsmlr/instructor_ex) - Structured outputs from LLMs using Ecto schemas. Works with OpenAI, llama.cpp and Bumblebee.
+- [JsonRemedy](https://github.com/nshkrdotcom/json_remedy) - Multi-layered JSON repair library for fixing malformed LLM outputs. Handles missing quotes, trailing commas, code fences, Python/JS object literals, and streaming JSON through a 5-layer repair pipeline.
 - [InstructorLite](https://github.com/martosaur/instructor_lite) - Lightweight structured outputs for LLMs using JSON schemas with multi-provider support including OpenAI, Anthropic, and Gemini.
 - [Mentor](https://github.com/zoedsoupe/mentor) - Library for generating validated structured outputs from LLMs with automatic retries and schema validation.
 - [Ollama-ex](https://github.com/lebrunel/ollama-ex) - Elixir client for Ollama API with support for completions, chat, tools, and function calling.
+- [OpenAI.ex](https://github.com/cyberchitta/openai_ex) - OpenAI API client with streaming, file uploads, and Azure OpenAI support.
 - [Rag](https://github.com/bitcrowd/rag) - Library for building Retrieval Augmented Generation (RAG) systems with support for vector stores like pgvector and chroma.
 - [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - Semantic text chunking library optimized for vector embedding and RAG applications.
 
@@ -81,10 +90,13 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems with modular actions, stateful agents, and sensors. AI-framework agnostic.
 - [LangChain](https://github.com/brainlid/langchain) - Framework for developing applications powered by language models, with support for OpenAI, Anthropic, Google, and Bumblebee models.
 - [SwarmEx](https://github.com/nrrso/swarm_ex) - Lightweight library for AI agent orchestration with built-in telemetry and tool integration.
+- [Synapse](https://github.com/nshkrdotcom/synapse) - Headless, declarative multi-agent orchestration framework with a domain-agnostic signal bus, workflow engine with Postgres persistence, and configurable agent runtime.
 
 ### Development Tools
+- [AgentObs](https://github.com/lostbean/agent_obs) - LLM agent observability with telemetry, token tracking, and OpenTelemetry spans following OpenInference conventions.
 - [Alike](https://github.com/georgeguimaraes/alike) - Semantic similarity testing library using a wave operator (`<~>`) for assertions. Tests whether sentences convey the same meaning rather than exact matches, ideal for validating LLM outputs.
 - [Evals](https://github.com/ash-project/evals) - Tool for evaluating AI language models on Elixir code generation with side-by-side model comparisons and automated testing.
+- [LlmGuard](https://github.com/North-Shore-AI/LlmGuard) - AI firewall with prompt injection detection, PII redaction, and jailbreak prevention for LLM applications.
 - [HexDocs MCP](https://github.com/bradleygolden/hexdocs-mcp) - Enables semantic search of Elixir package documentation for AI assistants via Model Context Protocol (MCP).
 - [Anubis MCP](https://github.com/zoedsoupe/anubis-mcp) - SDK for the Model Context Protocol (MCP) with support for multiple transport options (STDIO, HTTP/SSE, WebSocket).
 - [MCP Proxy](https://github.com/tidewave-ai/mcp_proxy_elixir) - Proxy that connects STDIO-based MCP clients to HTTP-based Server-Sent Events (SSE) MCP servers.
