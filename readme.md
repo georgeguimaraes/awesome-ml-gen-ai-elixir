@@ -85,6 +85,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [OpenAI.ex](https://github.com/cyberchitta/openai_ex) - OpenAI API client with streaming, file uploads, and Azure OpenAI support.
 - [Rag](https://github.com/bitcrowd/rag) - Library for building Retrieval Augmented Generation (RAG) systems with support for vector stores like pgvector and chroma.
 - [TextChunker](https://github.com/revelrylabs/text_chunker_ex) - Semantic text chunking library optimized for vector embedding and RAG applications.
+- [Tribunal](https://github.com/georgeguimaraes/tribunal) - LLM evaluation framework that provides tools for evaluating and testing LLM outputs, detecting hallucinations, and measuring response quality
 
 ### Agent Frameworks
 - [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems with modular actions, stateful agents, and sensors. AI-framework agnostic.
