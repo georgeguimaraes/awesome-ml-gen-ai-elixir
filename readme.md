@@ -32,6 +32,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [Explorer](https://github.com/elixir-explorer/explorer) - Series and dataframes for data exploration in Elixir.
 - [Livebook](https://livebook.dev/) - Write interactive and collaborative notebooks, with integrations to databases, messaging, visualization and more.
 - [Kino](https://github.com/livebook-dev/kino) - Render rich and interactive output. Used in Livebook.
+- [Pythonx](https://github.com/livebook-dev/pythonx) - Embeds a Python interpreter directly into Elixir via NIF, running in the same OS process as the BEAM. Enables Elixir apps and Livebooks to call Python ML libraries directly.
 
 ## Machine Learning
 
@@ -81,6 +82,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [JsonRemedy](https://github.com/nshkrdotcom/json_remedy) - JSON repair library for fixing malformed LLM outputs.
 - [InstructorLite](https://github.com/martosaur/instructor_lite) - Lightweight structured outputs for LLMs using JSON schemas with multi-provider support including OpenAI, Anthropic, and Gemini.
 - [Mentor](https://github.com/zoedsoupe/mentor) - Library for generating validated structured outputs from LLMs with automatic retries and schema validation.
+- [Mistral](https://github.com/rodloboz/mistral) - Open-source Elixir client for the Mistral AI API covering chat completions, function calling, embeddings, streaming, OCR, fine-tuning, and batch processing.
 - [Ollama-ex](https://github.com/lebrunel/ollama-ex) - Elixir client for Ollama API with support for completions, chat, tools, and function calling.
 - [OpenAI.ex](https://github.com/cyberchitta/openai_ex) - OpenAI API client with streaming, file uploads, and Azure OpenAI support.
 - [Rag](https://github.com/bitcrowd/rag) - Library for building Retrieval Augmented Generation (RAG) systems with support for vector stores like pgvector and chroma.
@@ -88,18 +90,25 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [Tribunal](https://github.com/georgeguimaraes/tribunal) - LLM evaluation framework that provides tools for evaluating and testing LLM outputs, detecting hallucinations, and measuring response quality
 
 ### Agent Frameworks
+- [Bazaar](https://github.com/georgeguimaraes/bazaar) - Elixir SDK for serving AI agent commerce protocols (UCP and ACP) from a single Phoenix handler. Supports Google Shopping agents (UCP) and OpenAI/Stripe agents (ACP) with automatic request/response translation between protocols.
 - [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems with modular actions, stateful agents, and sensors. AI-framework agnostic.
+- [Jido.AI](https://github.com/agentjido/jido_ai) - LLM integration layer for Jido. Provides actions and reasoning strategies (ReAct, Chain-of-Thought, Tree-of-Thoughts) for building intelligent agents with OpenAI, Anthropic, and other providers.
 - [LangChain](https://github.com/brainlid/langchain) - Framework for developing applications powered by language models, with support for OpenAI, Anthropic, Google, and Bumblebee models.
+- [Sagents](https://github.com/sagents-ai/sagents) - Framework for interactive AI agents with OTP supervision, middleware composition, human-in-the-loop approvals, sub-agent delegation, and a Phoenix LiveView debugger.
 - [SwarmEx](https://github.com/nrrso/swarm_ex) - Lightweight library for AI agent orchestration with built-in telemetry and tool integration.
 - [Synapse](https://github.com/nshkrdotcom/synapse) - Multi-agent orchestration framework with Postgres persistence.
 
 ### Development Tools
 - [AgentObs](https://github.com/lostbean/agent_obs) - LLM agent observability with telemetry, token tracking, and OpenTelemetry spans following OpenInference conventions.
 - [Alike](https://github.com/georgeguimaraes/alike) - Semantic similarity testing library using a wave operator (`<~>`) for assertions. Tests whether sentences convey the same meaning rather than exact matches, ideal for validating LLM outputs.
+- [Beamlens](https://github.com/beamlens/beamlens) - AI-powered runtime intelligence for the BEAM. Lives in your supervision tree and uses LLMs to explain metrics, diagnose incidents, detect anomalies, and trace message queue bottlenecks.
+- [claude-code-elixir](https://github.com/georgeguimaraes/claude-code-elixir) - Collection of Claude Code plugins for Elixir development. Includes LSP integration, formatting and compilation hooks, and thinking skills for Elixir, Phoenix, Ecto, and OTP patterns.
 - [Evals](https://github.com/ash-project/evals) - Tool for evaluating AI language models on Elixir code generation with side-by-side model comparisons and automated testing.
+- [llm_db](https://github.com/agentjido/llm_db) - LLM model metadata database with O(1) lookups for provider capabilities, pricing, and context limits. Packaged as a dependency snapshot with no runtime network calls needed.
 - [LlmGuard](https://github.com/North-Shore-AI/LlmGuard) - AI firewall with prompt injection detection, PII redaction, and jailbreak prevention for LLM applications.
 - [HexDocs MCP](https://github.com/bradleygolden/hexdocs-mcp) - Enables semantic search of Elixir package documentation for AI assistants via Model Context Protocol (MCP).
 - [Anubis MCP](https://github.com/zoedsoupe/anubis-mcp) - SDK for the Model Context Protocol (MCP) with support for multiple transport options (STDIO, HTTP/SSE, WebSocket).
+- [ex_mcp](https://github.com/azmaveth/ex_mcp) - Complete Elixir implementation of the Model Context Protocol (v2025-11-25) with client and server support, multiple transports including native BEAM, and 2600+ tests.
 - [MCP Proxy](https://github.com/tidewave-ai/mcp_proxy_elixir) - Proxy that connects STDIO-based MCP clients to HTTP-based Server-Sent Events (SSE) MCP servers.
 - [Tidewave Phoenix](https://github.com/tidewave-ai/tidewave_phoenix) - AI-powered development assistant for Phoenix web applications that connects editor AI assistants to web framework runtime via MCP.
 - [Usage Rules](https://github.com/ash-project/usage_rules) - Tool for synchronizing LLM rules files with dependencies to prevent AI hallucinations and ensure consistent usage patterns.
