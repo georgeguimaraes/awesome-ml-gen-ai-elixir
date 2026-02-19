@@ -130,8 +130,13 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 
 ### Videos
 
+- [(2025) Keynote: Elixir's AI Future - Chris McCord](https://www.youtube.com/watch?v=6fj2u6Vm42E)
 - [(2025) Keynote: Designing LLM Native systems - Sean Moriarity](https://www.youtube.com/watch?v=R9JRhIKQmqk)
+- [(2025) Full-Stack AI with Elixir - George Guimarães](https://www.youtube.com/watch?v=toAIdOVCHCw)
+- [(2025) Keynote: Code Generators are Dead. Long Live Code Generators - Chris McCord](https://www.youtube.com/watch?v=ojL_VHc4gLk)
+- [(2024) Ship it! A Roadmap for Putting Nx into Production - Christopher Grainger](https://www.youtube.com/watch?v=5FlZHkc4Mq4)
 - [(2024) Using LLMs and AI Agents to super power your Phoenix apps - Byron Saltysiak](https://www.youtube.com/watch?v=Hnpt2zv0rVw)
+- [(2024) Soothsayer: Using NeuralProphet, Nx and Livebook to Forecast Business Data in Elixir - George Guimarães](https://www.youtube.com/watch?v=3LmKRrLUn5w)
 - [(2023) A year in production with Machine Learning on the BEAM](https://www.youtube.com/watch?v=HP86Svk4hzI) (Explorer, Scholar, Bumblebee, Livebook)
 - [(2023) Nx-powered decision trees](https://www.youtube.com/watch?v=rbmviKT6HkU) (Nx, EXGBoost)
 - [(2023) Building AI apps with Elixir](https://www.youtube.com/watch?v=TfZI5-oQSqI)
