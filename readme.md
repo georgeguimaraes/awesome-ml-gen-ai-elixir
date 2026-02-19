@@ -149,6 +149,15 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 
 ### Articles
 
+- (2026) [Why Elixir is the best language for AI](https://dashbit.co/blog/why-elixir-best-language-for-ai) - José Valim makes a data-backed case for Elixir in the AI era: immutability, first-class docs, operational simplicity, and runtime introspection.
+- (2026) [Your Agent Framework Is Just a Bad Clone of Elixir](https://georgeguimaraes.com/your-agent-orchestrator-is-just-a-bad-clone-of-elixir/) - George Guimarães argues that Python agent frameworks are independently rediscovering BEAM primitives, and Elixir already solves the hard parts of long-lived agent connections.
+- (2025) [Embedding Python in Elixir, it's Fine](https://dashbit.co/blog/running-python-in-elixir-its-fine) - Jonatan Kłosko introduces Pythonx: embedding Python directly in the BEAM via NIF with automatic virtual env management and same-process memory sharing.
+- (2025) [Building a MCP Server in Elixir](https://hashrocket.com/blog/posts/building-a-mcp-server-in-elixir) - Hashrocket walks through building a real MCP server using Anubis, letting AI tools like Claude Code and Cursor interact directly with a Phoenix app.
+- (2024) [Elixir and Machine Learning in 2024 so far](https://dashbit.co/blog/elixir-ml-s1-2024-mlir-arrow-instructor) - José Valim's mid-year ecosystem update covering Nx's move to MLIR, Apple Silicon support, Explorer's Arrow improvements, and structured outputs via instructor_ex.
+- (2024) [What I mean when I say ML in Elixir is production-ready](https://cigrainger.com/elixirconf-eu-2024-keynote/) - Christopher Grainger makes the case for production ML on the BEAM: Nx.Serving for distributed batching, actor model for model supervision, and native integration with Phoenix, Oban, and Broadway.
+- (2024) [AI GPU Clusters, From Your Laptop, With Livebook](https://fly.io/blog/ai-gpu-clusters-from-your-laptop-livebook/) - Chris McCord and José Valim demonstrate scaling to 64 GPU machines simultaneously from a local Livebook using FLAME and Nx's native BEAM clustering.
+- (2024) [Training LoRA Models with Axon](https://dockyard.com/blog/2024/10/08/training-lora-models-with-axon) - Sean Moriarity's deep dive on fine-tuning LLMs in pure Elixir using LoRA and Axon's graph rewriting APIs.
+- (2024) [Implementing Natural Conversational Agents with Elixir](https://seanmoriarity.com/2024/02/25/implementing-natural-conversational-agents-with-elixir/) - Sean Moriarity builds a voice AI assistant with Whisper, GPT-3.5, and ElevenLabs in Elixir, reducing latency from 4.5s to ~1s with Silero VAD and GPU acceleration.
 - (2023) [From Python to Elixir Machine Learning](https://www.thestackcanary.com/from-python-pytorch-to-elixir-nx/) - Nice wrapup on what you gain from the Elixir ecosystem for Machine Learning.
 
 ## Contributions
