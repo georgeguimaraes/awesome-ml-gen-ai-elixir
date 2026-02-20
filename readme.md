@@ -77,6 +77,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [ReqLLM](https://github.com/agentjido/req_llm) - A Req-based package to call LLM APIs that standardizes the API calls and responses for LLM providers.
 - [DSPEx](https://github.com/nshkrdotcom/ds_ex) - DSPy port for Elixir with data-driven prompt optimization.
 - [Gemini.ex](https://github.com/nshkrdotcom/gemini_ex) - Elixir client for Google Gemini LLM supporting both AI Studio and Vertex AI.
+- [Handwave](https://github.com/martosaur/handwave) - LLM-powered control flow for Elixir: conditional logic, text rewriting, and routing decisions via natural language rather than code.
 - [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference service and library built on Elixir, Bumblebee, and EXLA with OpenAI API compatibility.
 - [Instructor.ex](https://github.com/thmsmlr/instructor_ex) - Structured outputs from LLMs using Ecto schemas. Works with OpenAI, llama.cpp and Bumblebee.
 - [JsonRemedy](https://github.com/nshkrdotcom/json_remedy) - JSON repair library for fixing malformed LLM outputs.
