@@ -86,6 +86,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 ## Generative AI
 
 ### LLM Tools
+
 - [Arcana](https://github.com/georgeguimaraes/arcana) - Embeddable RAG library for Elixir/Phoenix with agentic pipelines and dashboard.
 - [Aludel](https://github.com/ccarvalho-eng/aludel) - Phoenix-native LLM evaluation workbench: prompt tests, model comparison, rubric-based LLM judges, red-team suites, ExUnit assertions and CI gates.
 - [Anthropix](https://github.com/lebrunel/anthropix) - Anthropic Messages API client with streaming and tool use.
