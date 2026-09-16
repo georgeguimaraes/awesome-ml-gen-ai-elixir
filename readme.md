@@ -123,7 +123,6 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [A2A](https://github.com/actioncard/a2a-elixir) - Elixir implementation of the Agent-to-Agent (A2A) protocol with GenServer-based agents, JSON-RPC 2.0 dispatch, SSE streaming, skill-based discovery, and fleet supervision.
 - [A2UI](https://github.com/actioncard/a2ui-elixir) - Phoenix LiveView renderer for the Agent-to-UI (A2UI) protocol, converting declarative JSONL agent messages into native LiveView components with two-way data binding.
 - [Bazaar](https://github.com/georgeguimaraes/bazaar) - Elixir SDK for serving AI agent commerce protocols (UCP and ACP) from a single Phoenix handler. Supports Google Shopping agents (UCP) and OpenAI/Stripe agents (ACP) with automatic request/response translation between protocols.
-- [A2A](https://github.com/actioncard/a2a-elixir) - Agent-to-Agent protocol server and client with GenServer-backed agents, multi-turn tasks, streaming and official TCK compliance.
 - [Alloy](https://github.com/alloy-ex/alloy) - Minimal, OTP-native completion and tool-call loop. Provider-agnostic, with cost guards, and deliberately not a framework.
 - [BeamWeaver](https://github.com/caudena/beam_weaver) - LangChain, LangGraph and Deep Agents patterns as native OTP workflows, with tools, memory, human-in-the-loop and tracing.
 - [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems with modular actions, stateful agents, and sensors. AI-framework agnostic.
