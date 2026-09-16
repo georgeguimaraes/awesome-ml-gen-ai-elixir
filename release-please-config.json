@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "pull-request-header": ":rocket: Want to release this?",
+  "pull-request-title-pattern": "chore(main): release ${version}",
+  "include-v-in-tag": true,
+  "always-bump-patch": true,
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "changelog-sections": [
+        {"type": "feat", "section": "New Libraries", "hidden": false},
+        {"type": "docs", "section": "Resources and Descriptions", "hidden": false},
+        {"type": "fix", "section": "Fixes", "hidden": false},
+        {"type": "chore", "section": "Maintenance", "hidden": false},
+        {"type": "ci", "section": "Maintenance", "hidden": false},
+        {"type": "refactor", "section": "Maintenance", "hidden": false},
+        {"type": "revert", "section": "Reverts", "hidden": false},
+        {"type": "style", "section": "Maintenance", "hidden": false},
+        {"type": "test", "section": "Maintenance", "hidden": false},
+        {"type": "build", "section": "Maintenance", "hidden": false},
+        {"type": "perf", "section": "Maintenance", "hidden": false},
+        {"type": "", "section": "Other Changes", "hidden": false}
+      ]
+    }
+  }
+}
