@@ -14,3 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v5
+        id: release
+
+      # release-please writes the conventional-commit changelog. GitHub's own
+      # generator adds per-PR @mentions and a New Contributors section, so
+      # append that to the release body once the release exists.
+      - name: Append GitHub generated notes
+        if: ${{ steps.release.outputs.release_created == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.release.outputs.tag_name }}
+        run: |
+          generated=$(gh api -X POST "repos/${GITHUB_REPOSITORY}/releases/generate-notes" -f tag_name="$TAG" --jq .body)
+          current=$(gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json body --jq .body)
+          printf '%s\n\n%s\n' "$current" "$generated" > notes.md
+          gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md
