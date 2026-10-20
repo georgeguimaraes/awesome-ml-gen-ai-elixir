@@ -2,6 +2,13 @@
 
 Releases before 7.0.0 were tagged by hand as v1 through v7. From 7.0.0 on, releases are cut by release-please from the commit history.
 
+## [7.1.1](https://github.com/georgeguimaraes/awesome-ml-gen-ai-elixir/compare/v7.1.0...v7.1.1) (2026-10-20)
+
+
+### Maintenance
+
+* **ci:** Pin GitHub Actions to commit SHAs ([daaab81](https://github.com/georgeguimaraes/awesome-ml-gen-ai-elixir/commit/daaab811f4569cb5a37b2b63d1683f7de25cb355))
+
 ## [7.1.0](https://github.com/georgeguimaraes/awesome-ml-gen-ai-elixir/compare/v7.0.0...v7.1.0) (2026-09-16)
 
 
